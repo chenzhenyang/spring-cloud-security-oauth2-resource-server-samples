@@ -1,0 +1,12 @@
+server:
+  port: 9999
+debug: true
+
+security: 
+  oauth2:
+    resource:
+      jwk:
+        key-set-uri: http://localhost:8080/uaa/token_keys
+    client:
+      client-id: app
+      client-secret: appclientsecret    

@@ -1,0 +1,12 @@
+server:
+  port: 9999
+debug: true
+
+security: 
+  oauth2:
+    resource:
+      jwt:
+        key-store: test.jks
+        key-store-password: test 
+        key-alias: test
+        key-password: test
